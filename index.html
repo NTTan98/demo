@@ -21,15 +21,16 @@
       <img src="/images/logo.png" alt="logo" id="logo" />
       <div id="nav">
         <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">Portfolio</a></li>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#">About</a></li>
           <li><a href="#">Contact</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <section class="home">
+      <!-- begin home -->
+      <section id="home">
         <h1>We Build <strong>Brand</strong></h1>
         <p>
           Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
@@ -42,12 +43,15 @@
           <img src="images/arrow_bottom.png" alt="" />
         </a>
       </section>
-      <section class="portfolio">
+      <!-- end home -->
+      <!-- begin Portfolio -->
+      <section id="portfolio">
         <h2>Portfolio</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repudiandae,
           nisi.
         </p>
+        <!-- menu in Portfolio -->
         <div class="menu">
           <ul>
             <li><a href="#">All</a></li>
@@ -56,7 +60,9 @@
             <li><a href="#">Flat design</a></li>
           </ul>
         </div>
+        <!-- icon in Portfolio -->
         <div class="icon">
+          <!-- icon line 1 -->
           <ul>
             <li>
               <a href="#">
@@ -79,11 +85,74 @@
               </a>
             </li>
           </ul>
+          <!-- icon line 2 -->
+          <ul>
+            <li>
+              <a href="#">
+                <i class="icn fas fa-phone-square"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icn fas fa-atom"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icn fas fa-camera"></i>
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="icn fas fa-music"></i>
+              </a>
+            </li>
+          </ul>
         </div>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum, cum?
-        </p>
       </section>
+      <!-- end Portfolio -->
+      <!-- begin about us -->
+      <section id="about">
+        <h2>About Us</h2>
+        <p>
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam,
+          molestiae?
+        </p>
+        <!-- infor details 1 -->
+        <div class="infor">
+          <img src="/images/avatar.jpg" alt="avatar" class="avatar" />
+          <div id="details">
+            <span class="name">Melannie Doe</span>
+            <span class="job">Project Mananager</span>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            </p>
+          </div>
+        </div>
+        <!-- infor details 2 -->
+        <div class="infor">
+          <img src="/images/avatar.jpg" alt="avatar" class="avatar" />
+          <div id="details">
+            <span class="name">Melannie Doe</span>
+            <span class="job">Project Mananager</span>
+            <p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            </p>
+          </div>
+        </div>
+        <!-- infor details 3 -->
+        <div class="infor">
+          <img src="/images/avatar.jpg" alt="avatar" class="avatar" />
+          <div id="details">
+            <span class="name">Melannie Doe</span>
+            <span class="job">Project Mananager</span>
+            <p>
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- end about us -->
     </main>
     <footer></footer>
   </body>
