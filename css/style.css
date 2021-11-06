@@ -1,0 +1,123 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	font-family: 'Lato', sans-serif;
+
+}
+header{
+	height: 50px;
+	background-color: #fff;
+}
+#logo {
+	margin: auto;
+	padding-left: 20px;;
+	height: 50px;	
+}
+#nav{
+	float: right;
+}
+
+
+#nav li {
+	display: inline-block;
+}
+
+#nav li a{
+	float: left;
+	padding: 0 20px;
+	
+	color: #000;
+	
+	line-height: 50px;
+	text-decoration: none;
+
+}
+#nav li:hover a{
+	color: #fff;
+	background-color: #1abc9c;
+	display: inline-block;
+}
+
+.home{
+	height: 600px;
+	background-image: url('/images/banner.jpg');
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+	
+}
+.home h1{
+	font-weight: lighter;
+	font-size:xx-large;
+	padding: 150px 0 0 0;
+	color: #fff;
+}
+
+.home p{
+	margin: auto;
+	padding: 20px 0;
+	color: #fff;
+	max-width: 500px max-content;
+}
+
+
+.home .btn{
+	width: 120px;
+	padding: 10px 5px;
+	margin-top: 20px ;
+	cursor: pointer;
+
+	background-color:#1abc9c ;
+	color: #fff;
+	
+	border: none;
+	border-radius: 2px;
+}
+.home a{
+	display: block;
+	margin-top: 45px;
+}
+
+.portfolio{
+	text-align: center;
+	margin: 25px;
+}
+
+.portfolio p{
+	margin: 20px;
+}
+
+.portfolio .menu{
+	margin: 50px;
+}
+
+
+.portfolio .menu li{
+	display: inline;
+}
+
+.portfolio .menu li a{
+	color: #fff;
+	background-color: #1abc9c;
+
+	margin: 10px;	
+	padding: 10px 20px;
+
+	text-decoration: none;
+}
+
+.portfolio .menu li:hover a{
+	color: #fff;
+	background-color: #1a9b81;
+}
+
+.portfolio .icon li {
+	display: inline-block;
+}
+.portfolio .icn {
+	font-size: 100px;
+	padding: 0 x20px;
+}
